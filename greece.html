@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greece flag with CSS </title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #blue-color{
+            background-color: #0d5eaf;
+            height: 900px;
+            width: 1500px;
+            position: relative;
+            z-index: -1;
+        }
+        #blue-square{
+            background-color: #0d5eaf;
+            position: absolute;
+            height: 500px;
+            width: 600px;
+            z-index: 1;
+        }
+        #white-column{
+            background-color: white;
+            position: relative;
+            height: 100%;
+            width: 100px;
+            left: 250px;
+        }
+        #white-line{
+            background-color: white;
+            position: absolute;
+            height: 100px;
+            width: 100%;
+            top: 200px;
+        }
+        #while-line1{
+            background-color: white;
+            position: absolute;
+            width: 100%;
+            height: 100px;
+            top: 100px;
+            z-index: 0;
+        }
+        #while-line2{
+            background-color: white;
+            position: absolute;
+            width: 100%;
+            height: 100px;
+            top: 300px;
+            z-index: 0;
+        }
+        #while-line3{
+            background-color: white;
+            position: absolute;
+            width: 100%;
+            height: 100px;
+            top: 500px;
+            z-index: 0;
+        }
+        #while-line4{
+            background-color: white;
+            position: absolute;
+            width: 100%;
+            height: 100px;
+            top: 700px;
+            z-index: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="blue-color">
+        <div id="blue-square">
+            <div id="white-column"></div>
+            <div id="white-line"></div>
+        </div>
+        <div id="while-line1"></div>
+        <div id="while-line2"></div>
+        <div id="while-line3"></div>
+        <div id="while-line4"></div>
+    </div>
+</body>
+</html>
